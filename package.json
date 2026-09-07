@@ -1,0 +1,33 @@
+{
+  "name": "expo-learn-proj-be",
+  "version": "1.0.0",
+  "description": "This project is just only for learing purpose.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak-25yadav/expo-learn-proj-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Deepak-25yadav/expo-learn-proj-be/issues"
+  },
+  "homepage": "https://github.com/Deepak-25yadav/expo-learn-proj-be#readme",
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
